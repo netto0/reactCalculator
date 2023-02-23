@@ -1,0 +1,29 @@
+@font-face {
+    font-family: roboto-mono;
+    src: url(../fonts/RobotoMono-Thin.ttf);
+}
+
+.keyContainer {
+    background-color: #646464;
+    padding: 1rem .8rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    font-family: roboto-mono;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+}
+
+.keyContainer:hover {
+    transition: .1s;
+    cursor: pointer;
+    scale: 1.03;
+}
+
+.keyContainer:active {
+    /* transition: .05; */
+    scale: .99;
+    opacity: .9;
+}
